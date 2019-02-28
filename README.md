@@ -13,7 +13,7 @@ time to optimize them. If you want to optimize them yourself, you can run script
 
 # Usage
 ## Get the data
-Since the data is to big to be stored in git, you can download it from [my OneDrive](https://1drv.ms/u/s!Asz7v_UERQ36oh1BI3nPKjprKqO8).  
+Since the data is to big to be stored in github, you can download it from [my OneDrive](https://1drv.ms/u/s!Asz7v_UERQ36oh1BI3nPKjprKqO8).  
 
 ## Run
 Just run main.py
