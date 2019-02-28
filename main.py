@@ -27,7 +27,7 @@ def runtime(title):
     gc.collect()
 
 
-num_rows = 10000
+num_rows = 20000
 # num_rows = None
 with runtime("Get training data"):
     data = get_application_train(num_rows)
@@ -116,7 +116,6 @@ for placing, feat in enumerate(best_features[:5]["feature"]):
     plt.clf()
 
 best_features = best_features[:int(best_features.shape[0]*percentile)]["feature"].values
-# logger.info("Using {} out of total {} features =".format(len(best_features)), best_features)
 with runtime("Run LightGBM with selected features"):
     train_df = train_df[best_features]
     feat_importance, models, scores, oof_preds = kfold_lightgbm(train_df, train_target, params, num_folds=5)
