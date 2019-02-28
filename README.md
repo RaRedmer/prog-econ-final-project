@@ -19,7 +19,7 @@ Since the data is to big to be stored in github, you can download it from [my On
 Just run main.py
 
 However, since the process takes very long with the whole data,
-one can decrease the number of rows by given the variable "num_rows" the respective integer value.
+one can decrease the number of rows by giving the variable "num_rows" the total number of rows.
 Currently, its value is set to 20000:
 
 <p align="center"><img src="https://i.imgur.com/uUKT8vp.png"></p>
