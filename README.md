@@ -3,7 +3,8 @@ Final project for the course "Effective Programming Practices for Economists"
 
 # Goal
 
-- Visualize feature importance based on [LightGBM](https://lightgbm.readthedocs.io/en/latest/) framework's learning algorithm.
+- Visualize feature importance with [SHAP](https://github.com/slundberg/shap) (see the [SHAP NIPS paper](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions)
+ for details) based on [LightGBM](https://lightgbm.readthedocs.io/en/latest/) framework's learning algorithm.
 
 - Conduct feature selection and compare its performance
 
@@ -13,7 +14,7 @@ time to optimize them. If you want to optimize them yourself, you can run script
 
 # Usage
 ## Get the data
-Since the data is to big to be stored in github, you can download it from [my OneDrive](https://1drv.ms/u/s!Asz7v_UERQ36oh1BI3nPKjprKqO8).  
+Since the data is too big to be stored in github, you can download it from [my OneDrive](https://1drv.ms/u/s!Asz7v_UERQ36oh1BI3nPKjprKqO8).  
 
 ## Run
 Just run main.py
